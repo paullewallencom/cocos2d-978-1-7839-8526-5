@@ -1,0 +1,50 @@
+<Level player_fire_rate="0.6">
+	<EnemySet move_duration="1.0" fire_rate="0.75">
+		<Enemy name="sfenmy2" score="50" position="280,650" />
+		<Enemy name="sfenmy3" score="100" position="460,650" />
+		<Enemy name="sfenmy1" score="25" position="640,650" />
+		<Enemy name="sfenmy3" score="100" position="820,650" />
+		<Enemy name="sfenmy2" score="50" position="1000,650" />
+		
+		<Enemy name="sfenmy3" score="100" position="190,525" />
+		<Enemy name="sfenmy1" score="25" position="370,525" />
+		<Enemy name="sfenmy2" score="50" position="550,525" />
+		<Enemy name="sfenmy2" score="50" position="730,525" />
+		<Enemy name="sfenmy1" score="25" position="910,525" />
+		<Enemy name="sfenmy3" score="100" position="1080,525" />
+		
+		<Enemy name="sfenmy1" score="25" position="280,325" />
+		<Enemy name="sfenmy2" score="50" position="460,325" />
+		<Enemy name="sfenmy3" score="100" position="640,325" />
+		<Enemy name="sfenmy2" score="50" position="820,325" />
+		<Enemy name="sfenmy1" score="25" position="1000,325" />
+	</EnemySet>
+	<BrickSet>
+		<Brick name="sfbrick1" score="10" position="140,425" />
+		<Brick name="sfbrick2" score="10" position="204,425" />
+		
+		<Brick name="sfbrick1" score="10" position="370,425" />
+		<Brick name="sfbrick2" score="10" position="434,425" />
+		
+		<Brick name="sfbrick1" score="10" position="600,425" />
+		<Brick name="sfbrick2" score="10" position="664,425" />
+		
+		<Brick name="sfbrick1" score="10" position="830,425" />
+		<Brick name="sfbrick2" score="10" position="894,425" />
+		
+		<Brick name="sfbrick1" score="10" position="1060,425" />
+		<Brick name="sfbrick2" score="10" position="1124,425" />
+	
+		<Brick name="sfbrick1" score="10" position="260,225" />
+		<Brick name="sfbrick2" score="10" position="324,225" />
+		
+		<Brick name="sfbrick1" score="10" position="490,225" />
+		<Brick name="sfbrick2" score="10" position="554,225" />
+		
+		<Brick name="sfbrick1" score="10" position="720,225" />
+		<Brick name="sfbrick2" score="10" position="784,225" />
+		
+		<Brick name="sfbrick1" score="10" position="950,225" />
+		<Brick name="sfbrick2" score="10" position="1014,225" />
+	</BrickSet>
+</Level>

@@ -1,0 +1,21 @@
+<TowerDataSetList>
+
+	<TowerDataSet bullet_name="TD_bullet01.png" is_lightning="false" is_rotating="true">
+		<TowerData sprite_name="TD_t01gun01.png" range="1.5" physical_damage="10" magical_damage="0" speed_damage="1.0" speed_damage_duration="0" fire_rate="1.5" cost="100" />
+		<TowerData sprite_name="TD_t01gun02.png" range="2" physical_damage="25" magical_damage="0" speed_damage="1.0" speed_damage_duration="0" fire_rate="1.0" cost="175" />
+		<TowerData sprite_name="TD_t01gun03.png" range="3" physical_damage="30" magical_damage="0" speed_damage="1.0" speed_damage_duration="0" fire_rate="0.5" cost="250" />
+	</TowerDataSet>
+
+	<TowerDataSet bullet_name="" is_lightning="true" is_rotating="false">
+		<TowerData sprite_name="TD_t02gun01.png" range="2" physical_damage="0" magical_damage="15" speed_damage="1.0" speed_damage_duration="0" fire_rate="2.0" cost="150" />
+		<TowerData sprite_name="TD_t02gun02.png" range="3" physical_damage="0" magical_damage="30" speed_damage="1.0" speed_damage_duration="0" fire_rate="1.5" cost="225" />
+		<TowerData sprite_name="TD_t02gun03.png" range="4" physical_damage="0" magical_damage="60" speed_damage="1.0" speed_damage_duration="0" fire_rate="1.0" cost="300" />
+	</TowerDataSet>
+	
+	<TowerDataSet bullet_name="TD_bullet03.png" is_lightning="false" is_rotating="false">
+		<TowerData sprite_name="TD_t03gun01.png" range="1.5" physical_damage="0" magical_damage="0" speed_damage="0.7" speed_damage_duration="1.0" fire_rate="1.5" cost="100" />
+		<TowerData sprite_name="TD_t03gun02.png" range="2" physical_damage="0" magical_damage="0" speed_damage="0.6" speed_damage_duration="1.75" fire_rate="1.25" cost="200" />
+		<TowerData sprite_name="TD_t03gun03.png" range="3" physical_damage="0" magical_damage="0" speed_damage="0.4" speed_damage_duration="2.5" fire_rate="1.0" cost="275" />
+	</TowerDataSet>
+	
+</TowerDataSetList>

@@ -1,0 +1,10 @@
+<EnemyDataList>
+	<EnemyData animation="enemy_1" health="20" armor="0" magic_resistance="0" speed="0.8" damage="1" reward="10" />
+	<EnemyData animation="enemy_2" health="30" armor="5" magic_resistance="0" speed="0.9" damage="1" reward="12" />
+	<EnemyData animation="enemy_3" health="40" armor="0" magic_resistance="4" speed="0.7" damage="1" reward="15" />
+	<EnemyData animation="enemy_4" health="100" armor="5" magic_resistance="5" speed="0.9" damage="2" reward="20" />	
+	<EnemyData animation="enemy_5" health="40" armor="0" magic_resistance="0" speed="0.8" damage="1" reward="20" />
+	<EnemyData animation="enemy_6" health="60" armor="5" magic_resistance="0" speed="0.9" damage="1" reward="25" />
+	<EnemyData animation="enemy_7" health="80" armor="0" magic_resistance="4" speed="0.7" damage="1" reward="30" />
+	<EnemyData animation="enemy_8" health="150" armor="5" magic_resistance="5" speed="0.9" damage="2" reward="40" />
+</EnemyDataList>

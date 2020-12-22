@@ -1,0 +1,30 @@
+<Level player_fire_rate="1.0">
+	<EnemySet move_duration="3.0" fire_rate="5.0">
+		<Enemy name="sfenmy1" score="25" position="280,650" />
+		<Enemy name="sfenmy1" score="25" position="460,650" />
+		<Enemy name="sfenmy2" score="50" position="640,650" />
+		<Enemy name="sfenmy1" score="25" position="820,650" />
+		<Enemy name="sfenmy1" score="25" position="1000,650" />
+		
+		<Enemy name="sfenmy1" score="25" position="370,500" />
+		<Enemy name="sfenmy1" score="25" position="550,500" />
+		<Enemy name="sfenmy1" score="25" position="730,500" />
+		<Enemy name="sfenmy1" score="25" position="910,500" />
+	</EnemySet>
+	<BrickSet>
+		<Brick name="sfbrick1" score="10" position="300,350" />
+		<Brick name="sfbrick2" score="10" position="364,350" />
+		
+		<Brick name="sfbrick1" score="10" position="450,250" />
+		<Brick name="sfbrick2" score="10" position="514,250" />
+		
+		<Brick name="sfbrick1" score="10" position="600,350" />
+		<Brick name="sfbrick2" score="10" position="664,350" />
+		
+		<Brick name="sfbrick1" score="10" position="750,250" />
+		<Brick name="sfbrick2" score="10" position="814,250" />
+		
+		<Brick name="sfbrick1" score="10" position="900,350" />
+		<Brick name="sfbrick2" score="10" position="964,350" />
+	</BrickSet>
+</Level>

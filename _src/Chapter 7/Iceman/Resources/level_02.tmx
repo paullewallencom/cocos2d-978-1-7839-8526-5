@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="75" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="96" height="96"/>
+ </tileset>
+ <layer name="Bricks" width="40" height="75">
+  <data encoding="base64" compression="zlib">
+   eJzt2TEKgEAMRNEVwfsf2UqQxcok+jX/wdROY4hxDEmqsQTyxDOyOkQQO12h9poRO0mSJElnkZ06spfTd3lJdTK+6b9yF5CU6+67n3HvJN9KJcVV/tvpFgJqrxm5m/p4e2b8JTTkbgdyN/Xw9txwvtQhd1MPKzybCWUHHggDtA==
+  </data>
+ </layer>
+ <objectgroup name="Objects">
+  <object name="EnemySpawnPoint" x="192" y="2047" width="32" height="32">
+   <properties>
+    <property name="speed_x" value="1.5"/>
+    <property name="speed_y" value="0.0"/>
+   </properties>
+  </object>
+  <object name="EnemySpawnPoint" x="1024" y="1791" width="32" height="32">
+   <properties>
+    <property name="speed_x" value="-1.75"/>
+    <property name="speed_y" value="0.0"/>
+   </properties>
+  </object>
+  <object name="EnemySpawnPoint" x="576" y="1535" width="32" height="32">
+   <properties>
+    <property name="speed_x" value="2"/>
+    <property name="speed_y" value="0.0"/>
+   </properties>
+  </object>
+  <object name="PlatformSpawnPoint" x="224" y="672" width="32" height="32">
+   <properties>
+    <property name="speed_x" value="2.75"/>
+   </properties>
+  </object>
+  <object name="PlatformSpawnPoint" x="480" y="448" width="32" height="32">
+   <properties>
+    <property name="speed_x" value="2.75"/>
+   </properties>
+  </object>
+  <object name="LevelCompletePoint" x="0" y="192" width="32" height="32"/>
+  <object name="HeroSpawnPoint" x="608" y="2272" width="32" height="32"/>
+ </objectgroup>
+</map>

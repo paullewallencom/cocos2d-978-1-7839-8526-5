@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="150" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="96" height="96"/>
+ </tileset>
+ <layer name="Bricks" width="40" height="150">
+  <data encoding="base64" compression="zlib">
+   eJzt2cEOgjAQBFCMif//yd6NGGpXOivvJXukzIVJW7YNAAAAoLdb4fxy7ZH3VkrMtCcx0zupuV4lZwMAAADgHCP3WN/cy80+A/R11j+UK0yKxEzAuNWdpv/gf1V9xxWdoF8AgCOq9gsz6zgfwTVVffMdegMA6GFkP1F5fjqaJXGfk5gJEq3+5zwzZ0rIAN2s7ojUPvkkMRMkWt0ZnTomLQ+ku4fPw0zNE/EcBCM=
+  </data>
+ </layer>
+ <objectgroup name="Objects">
+  <object name="HeroSpawnPoint" x="608" y="4672" width="32" height="32"/>
+  <object name="EnemySpawnPoint" x="416" y="4224" width="32" height="32">
+   <properties>
+    <property name="speed_x" value="-2.0"/>
+    <property name="speed_y" value="0.0"/>
+   </properties>
+  </object>
+  <object name="EnemySpawnPoint" x="800" y="4449" width="32" height="32">
+   <properties>
+    <property name="speed_x" value="1.0"/>
+    <property name="speed_y" value="0.0"/>
+   </properties>
+  </object>
+  <object name="EnemySpawnPoint" x="736" y="3998" width="32" height="32">
+   <properties>
+    <property name="speed_x" value="-2.0"/>
+    <property name="speed_y" value="0.0"/>
+   </properties>
+  </object>
+  <object name="PlatformSpawnPoint" x="64" y="3584" width="32" height="32">
+   <properties>
+    <property name="speed_x" value="0"/>
+    <property name="speed_y" value="0"/>
+   </properties>
+  </object>
+  <object name="PlatformSpawnPoint" x="576" y="3584" width="32" height="32">
+   <properties>
+    <property name="speed_x" value="0"/>
+    <property name="speed_y" value="0"/>
+   </properties>
+  </object>
+  <object name="PlatformSpawnPoint" x="1024" y="3584" width="32" height="32">
+   <properties>
+    <property name="speed_x" value="0"/>
+    <property name="speed_y" value="0"/>
+   </properties>
+  </object>
+  <object name="PlatformSpawnPoint" x="576" y="2912" width="32" height="32">
+   <properties>
+    <property name="speed_x" value="4"/>
+    <property name="speed_y" value="0"/>
+   </properties>
+  </object>
+  <object name="EnemySpawnPoint" x="864" y="2430" width="32" height="32">
+   <properties>
+    <property name="speed_x" value="-2.0"/>
+    <property name="speed_y" value="0.0"/>
+   </properties>
+  </object>
+  <object name="EnemySpawnPoint" x="384" y="2142" width="32" height="32">
+   <properties>
+    <property name="speed_x" value="-2.0"/>
+    <property name="speed_y" value="0.0"/>
+   </properties>
+  </object>
+  <object name="PlatformSpawnPoint" x="576" y="1760" width="32" height="32">
+   <properties>
+    <property name="speed_x" value="0"/>
+    <property name="speed_y" value="0"/>
+   </properties>
+  </object>
+  <object name="PlatformSpawnPoint" x="992" y="1760" width="32" height="32">
+   <properties>
+    <property name="speed_x" value="0"/>
+    <property name="speed_y" value="0"/>
+   </properties>
+  </object>
+  <object name="PlatformSpawnPoint" x="160" y="1760" width="32" height="32">
+   <properties>
+    <property name="speed_x" value="0"/>
+    <property name="speed_y" value="0"/>
+   </properties>
+  </object>
+  <object name="PlatformSpawnPoint" x="576" y="1312" width="32" height="32">
+   <properties>
+    <property name="speed_x" value="0"/>
+    <property name="speed_y" value="0"/>
+   </properties>
+  </object>
+  <object name="PlatformSpawnPoint" x="128" y="1312" width="32" height="32">
+   <properties>
+    <property name="speed_x" value="0"/>
+    <property name="speed_y" value="0"/>
+   </properties>
+  </object>
+  <object name="PlatformSpawnPoint" x="1024" y="1312" width="32" height="32">
+   <properties>
+    <property name="speed_x" value="0"/>
+    <property name="speed_y" value="0"/>
+   </properties>
+  </object>
+  <object name="PlatformSpawnPoint" x="576" y="1536" width="32" height="32">
+   <properties>
+    <property name="speed_x" value="4"/>
+    <property name="speed_y" value="0"/>
+   </properties>
+  </object>
+  <object name="PlatformSpawnPoint" x="576" y="1088" width="32" height="32">
+   <properties>
+    <property name="speed_x" value="4"/>
+    <property name="speed_y" value="0"/>
+   </properties>
+  </object>
+  <object name="LevelCompletePoint" x="64" y="832" width="32" height="32"/>
+ </objectgroup>
+</map>

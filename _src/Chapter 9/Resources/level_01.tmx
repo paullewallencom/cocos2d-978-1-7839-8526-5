@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="90" tileheight="90">
+ <tileset firstgid="1" name="TD_tiledbase" tilewidth="90" tileheight="90">
+  <image source="TD_tiledbase.png" width="400" height="300"/>
+ </tileset>
+ <layer name="EnemyPath" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4BggTA6gtV5uIGZDwqxI+tjR5LjQ9DKRYC+6WlL0cqK5g4UEvcQCSuMWAO/eAkM=
+  </data>
+ </layer>
+ <objectgroup name="PathObjects">
+  <object name="WalkPoint_0" x="-90" y="540"/>
+  <object name="WalkPoint_1" x="360" y="540"/>
+  <object name="WalkPoint_2" x="360" y="720"/>
+  <object name="WalkPoint_3" x="720" y="720"/>
+  <object name="WalkPoint_4" x="720" y="450"/>
+  <object name="WalkPoint_5" x="1260" y="450"/>
+  <object name="Pumpkin" x="1218" y="450"/>
+ </objectgroup>
+</map>
